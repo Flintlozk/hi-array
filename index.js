@@ -16,11 +16,14 @@ const push = (params, value) => {
   return params;
 };
 
-console.log("XXX", unshift([1,2,3]));
+const hello = () => {
+    console.log('Hello')
+}
 
 module.exports = {
   _shift: shift,
   _unshift: unshift,
   _pop: pop,
-  _push: push
+  _push: push,
+  _hello:hello
 };
